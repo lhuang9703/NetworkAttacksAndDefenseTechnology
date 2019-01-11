@@ -1,0 +1,108 @@
+[**] [1:1000004:0] ssh attack [**]
+[Priority: 0] 
+01/01-15:36:37.305014 10.211.55.2:64951 -> 10.211.55.13:22
+TCP TTL:64 TOS:0x48 ID:0 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x1E086583  Ack: 0xE7C75718  Win: 0x7E6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 781478563 11459479 
+
+[**] [1:1000004:0] ssh attack [**]
+[Priority: 0] 
+01/01-15:36:48.932491 10.211.55.2:64951 -> 10.211.55.13:22
+TCP TTL:64 TOS:0x4A ID:0 IpLen:20 DgmLen:88 DF
+***AP*** Seq: 0x1E086583  Ack: 0xE7C75718  Win: 0x800  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 781490132 11459479 
+
+[**] [1:1000004:0] ssh attack [**]
+[Priority: 0] 
+01/01-15:36:56.762833 10.211.55.2:64951 -> 10.211.55.13:22
+TCP TTL:64 TOS:0x48 ID:0 IpLen:20 DgmLen:52 DF
+***A**** Seq: 0x1E0868AB  Ack: 0xE7C7D020  Win: 0x7E6  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 781497896 11478937 
+
+[**] [1:1:0] web http attack [**]
+[Priority: 0] 
+01/01-15:37:25.252871 10.211.55.4:49924 -> 10.211.55.13:80
+TCP TTL:128 TOS:0x0 ID:19548 IpLen:20 DgmLen:52 DF
+******S* Seq: 0xDD0B7D79  Ack: 0x0  Win: 0xFAF0  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+
+[**] [1:1:0] web http attack [**]
+[Priority: 0] 
+01/01-15:37:25.253133 10.211.55.4:49924 -> 10.211.55.13:80
+TCP TTL:128 TOS:0x0 ID:19549 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0xDD0B7D7A  Ack: 0xEA466111  Win: 0x805  TcpLen: 20
+
+[**] [1:1000001:0] ping attack [**]
+[Priority: 0] 
+01/01-15:37:25.253878 10.211.55.4 -> 10.211.55.13
+ICMP TTL:64 TOS:0x0 ID:19550 IpLen:20 DgmLen:36
+Type:8  Code:0  ID:1   Seq:3  ECHO
+
+[**] [1:1000004:0] ssh attack [**]
+[Priority: 0] 
+01/01-15:37:25.276210 10.211.55.4:49925 -> 10.211.55.13:22
+TCP TTL:128 TOS:0x0 ID:19551 IpLen:20 DgmLen:52 DF
+******S* Seq: 0x9C3B5775  Ack: 0x0  Win: 0xFAF0  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+
+[**] [1:1000004:0] ssh attack [**]
+[Priority: 0] 
+01/01-15:37:25.276489 10.211.55.4:49925 -> 10.211.55.13:22
+TCP TTL:128 TOS:0x0 ID:19552 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x9C3B5776  Ack: 0x6A942F9C  Win: 0x805  TcpLen: 20
+
+[**] [1:1000004:0] ssh attack [**]
+[Priority: 0] 
+01/01-15:37:25.331709 10.211.55.4:49925 -> 10.211.55.13:22
+TCP TTL:128 TOS:0x0 ID:19553 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0x9C3B5776  Ack: 0x6A942FB1  Win: 0x805  TcpLen: 20
+
+[**] [1:1:0] web http attack [**]
+[Priority: 0] 
+01/01-15:37:30.318006 10.211.55.4:49924 -> 10.211.55.13:80
+TCP TTL:128 TOS:0x0 ID:19554 IpLen:20 DgmLen:40 DF
+***A***F Seq: 0xDD0B7D7A  Ack: 0xEA466111  Win: 0x805  TcpLen: 20
+
+[**] [1:1000004:0] ssh attack [**]
+[Priority: 0] 
+01/01-15:37:30.318915 10.211.55.4:49925 -> 10.211.55.13:22
+TCP TTL:128 TOS:0x0 ID:19555 IpLen:20 DgmLen:40 DF
+***A*R** Seq: 0x9C3B5776  Ack: 0x6A942FB1  Win: 0x0  TcpLen: 20
+
+[**] [1:1:0] web http attack [**]
+[Priority: 0] 
+01/01-15:37:30.319808 10.211.55.4:49924 -> 10.211.55.13:80
+TCP TTL:128 TOS:0x0 ID:19556 IpLen:20 DgmLen:40 DF
+***A**** Seq: 0xDD0B7D7B  Ack: 0xEA466112  Win: 0x805  TcpLen: 20
+
+[**] [1:1000001:0] ping attack [**]
+[Priority: 0] 
+01/01-15:37:46.853725 10.211.55.4 -> 10.211.55.13
+ICMP TTL:128 TOS:0x0 ID:19557 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:4  ECHO
+
+[**] [1:1000001:0] ping attack [**]
+[Priority: 0] 
+01/01-15:37:47.864171 10.211.55.4 -> 10.211.55.13
+ICMP TTL:128 TOS:0x0 ID:19558 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:5  ECHO
+
+[**] [1:1000001:0] ping attack [**]
+[Priority: 0] 
+01/01-15:37:48.879725 10.211.55.4 -> 10.211.55.13
+ICMP TTL:128 TOS:0x0 ID:19559 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:6  ECHO
+
+[**] [1:1000001:0] ping attack [**]
+[Priority: 0] 
+01/01-15:37:49.895462 10.211.55.4 -> 10.211.55.13
+ICMP TTL:128 TOS:0x0 ID:19560 IpLen:20 DgmLen:60
+Type:8  Code:0  ID:1   Seq:7  ECHO
+
+[**] [1:1000004:0] ssh attack [**]
+[Priority: 0] 
+01/01-15:37:53.754062 10.211.55.2:64951 -> 10.211.55.13:22
+TCP TTL:64 TOS:0x4A ID:0 IpLen:20 DgmLen:88 DF
+***AP*** Seq: 0x1E0868AB  Ack: 0xE7C7D020  Win: 0x800  TcpLen: 32
+TCP Options (3) => NOP NOP TS: 781554593 11478937 
+

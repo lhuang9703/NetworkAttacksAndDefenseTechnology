@@ -1,0 +1,1 @@
+locale=zh_CN&uid=cwu&nodetect=false&domain=fudan.edu.cn&=%E5%AF%86%E3%80%80%E7%A0%81&password=ABC12345XYZ&action%3Alogin=%E7%99%BB%E5%BD%95
